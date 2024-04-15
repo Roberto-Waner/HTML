@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi primer web</title>
+
+        <style>
+            table, th, td{
+                border: 1px solid black;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width: 500px;">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <!-- "th" se usa para una cabezera en la tabla -->
+                </tr>
+                <!-- "tr" signifia table rows osea una fila en la tabla -->
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>Mango</td>
+                    <td>500pesos</td>
+                    <!-- "td" es el elemento que va dentro de cada columna (fila)
+                       y su contenido sera lo que queremos mostrar en esa celda 
+                       por ejemplo el nombre del producto o precio -->
+                </tr>
+    
+                <tr>
+                    <td>Manzana</td>
+                    <td>100pesos</td>
+                </tr>
+    
+                <tr>
+                    <td>Guineo</td>
+                    <td>40pesos</td>
+                </tr>
+    
+                <tr>
+                    <td>Limones</td>
+                    <td>5000pesos</td>
+                </tr>
+    
+                <tr>
+                    <td>Mando de xbox</td>
+                    <td>25pesos</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <td></td>
+                <td>Total: 5682pesos</td>
+            </tfoot>
+        </table>
+
+        <!-- ul es lista no ordenada -->
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+        </ul>
+
+        <!-- ol lista ordenada -->
+        <ol>
+            <li value="50">Elemento 1</li>
+            <!-- para determinar el comienzo de los numeros -->
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+
+            <li>
+                <ol>
+                    <li style="list-style-type: lower-alpha;">sub Elemento 1</li>
+                    <li style="list-style-type: lower-roman">sub Elemento 2</li>
+                    <li style="list-style-type: square;">sub Elemento 3</li>
+                    <!-- y tenemos mas opciones con el list-style-type: -->
+                </ol>
+            </li>
+        </ol>
+
+        <form action="/formulario" method="post">
+            <label for="nombre">Nombre</label>
+            <input value="Roberto" type="text"  id="nombre"  name="nombre" placeholder="Roberto...">
+            <br>
+
+            <label for="apellido">Apellido</label>
+            <input value="Waner" type="text" id="apellido" name="apellido" placeholder="Garcia...">
+            <br><br>
+            
+            <label for="comentario">Comentario</label><br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese sus comentario">KLK WAWAWA</textarea> 
+            <!-- se usa comunmente para hacer comentarios y se le puede añadir parafos  -->
+            <br>
+            <!-- <input type="submit" value="Enviar"> -->
+            <button type="button">Tipo button</button>
+            <button type="reset">tipo reset</button>
+            <!-- button type= "reset"  borra todo el formulario -->
+            <button type="submit">tipo submit</button>
+            <!-- el button de type= "submit" se usa tambien para enviar datos al formulario -->
+        </form> 
+        
+        <h1>Mi primer heading</h1>
+        <h2>Mi segundo heading</h2>
+        <h3>Mi tercer heading</h3>
+        <h4>Mi cuarto heading</h4>
+        <h5>Mi quinto heading</h5>
+        <h6>Mi sexto heading</h6>
+        
+        <p>Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. 
+            Fuga enim quos reiciendis 
+            nobis veritatis molestias, 
+            adipisci reprehenderit 
+            tempore labore ad dolorum 
+            commodi exercitationem sit 
+            rem a, odio, autem ratione 
+            porro?</p>
+            
+        <hr>
+        
+        <h2>Chanchito felipe</h2>
+        <p>
+            este texto es <span style="color: blue;">mucho mas largo</span> 
+            y es para mostrar <br>
+            la etiqueta de span!
+        </p>
+
+    <!-- esto es un comentario-->
+
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <!-- se usa target para abrir otra pestaña en el navegador -->
+    <br><br>
+    <img src="imagen/Dragon ball.jpe" alt="" width="500"  height="400">
+
+</body>
+</html>
