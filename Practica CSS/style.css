@@ -1,0 +1,40 @@
+#titulo{
+    color: tomato;
+}
+
+/* p{
+    color: slateblue;
+} */
+
+/* .texto{
+    color: slateblue;
+} */
+
+p.texto{
+    color: slateblue;
+}
+
+p.especial{
+    color: mediumaquamarine;
+}
+
+div p{
+    color: aquamarine;
+}
+
+div h2, div h3{
+    color: brown;
+}
+
+*{
+    font-size: 24px;
+}
+
+/* .color{ hexadecimal
+    color: #ff0;
+} */
+
+/* colores rgb */
+.color{ 
+    color: rgb(0, 255, 255);
+}
