@@ -34,7 +34,60 @@ div h2, div h3{
     color: #ff0;
 } */
 
-/* colores rgb */
+/* colores rgb 
 .color{ 
     color: rgb(0, 255, 255);
+}*/
+
+/* .color{
+    border: 15px rgb(208, 14, 14) outset;
+    /*otras aternativas
+
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden 
+}*/
+
+.color{
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-width: 5px;
+}
+
+#fondo{
+    background-color: rgba(255, 0, 0, 0.5);
+    /* con "rgba" se puede indicar un nivel 
+    de transparencia al color. 
+    El primer valor es el color en 
+    formato RGB (rojo, verde */
+
+    /* opacity: 0.5; */
+    height: 200px;
+    background-image: url('imagen/asta.jpg');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+
+    /* contain: Escala la imagen al mayor tamaño posible sin recortarla ni estirarla1.
+    
+    cover: Escala la imagen al mayor tamaño posible sin estirarla. Si las proporciones de la imagen difieren de las del elemento, es recortada vertical u horizontalmente para que no quede un espacio vacío1.
+    
+    auto: Escala el fondo de la imagen en la dirección correspondiente de modo que su proporción esencial se mantiene1.
+    
+    <percentage>: Escala la imagen de fondo en la dimensión correspondiente al porcentaje especificado del área de posicionamiento de fondo1.
+    
+    <length>: Escala la imagen de fondo a la longitud especificada en la dimensión correspondiente1. */
+
+
 }
