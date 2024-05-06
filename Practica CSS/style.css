@@ -67,17 +67,21 @@ div h2, div h3{
 }
 
 #fondo{
-    background-color: rgba(255, 0, 0, 0.5);
-    /* con "rgba" se puede indicar un nivel 
-    de transparencia al color. 
+    background-color: rgba(255, 0, 0, 0.823);
+    /* con "rgba" se puede indicar un nivel de transparencia al color. 
     El primer valor es el color en 
     formato RGB (rojo, verde */
 
     /* opacity: 0.5; */
-    height: 200px;
-    background-image: url('imagen/asta.jpg');
+    /* 
     background-size: 100px 100px;
-    background-repeat: no-repeat;
+    background-image: url('imagen/asta.jpg');
+    background-repeat: repeat-y;
+    background-position: right bottom; */
+    /* para hacer todo junto en una linea de background */
+    height: 500px;
+    background: rgba(255, 0, 0, 0.823) url('imagen/asta.jpg') repeat-y right bottom / 100px 100px;
+
 
     /* contain: Escala la imagen al mayor tamaño posible sin recortarla ni estirarla1.
     
@@ -88,6 +92,11 @@ div h2, div h3{
     <percentage>: Escala la imagen de fondo en la dimensión correspondiente al porcentaje especificado del área de posicionamiento de fondo1.
     
     <length>: Escala la imagen de fondo a la longitud especificada en la dimensión correspondiente1. */
+}
 
-
+.margen{
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px;
+    border: solid 1px black;
 }
