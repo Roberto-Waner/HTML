@@ -1,0 +1,25 @@
+html{
+    scroll-behavior: smooth; /* Para hacer subir y bajar de manera fluida con los enlaces */
+}
+body{
+    font-family: arial;
+}
+
+h1{
+    color: indigo;
+}
+
+img{
+    max-width: 110%;        /* Segunda forma de adaptar una imagen y video, esta regla se aplica a todas las etiquetas */
+    height: auto;
+}
+
+video{
+    max-width: 1200px;
+    height: auto;
+}
+
+iframe{
+    width: 80%;
+    height: 400px;
+}
