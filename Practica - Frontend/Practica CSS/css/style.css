@@ -1,0 +1,41 @@
+@import url("otra-hoja.css"); /*para llamar otra hoja de estilo */
+
+h1{
+    color: red;
+    background-color: black;
+}
+
+/* Selectores basicos
+    1) Etiquetas
+    2) Identificadores -- atributo id = "#"
+    3) Clases - atributo Class = "." 
+*/
+
+p{
+    color: midnightblue;
+}
+
+#parrafo-dos{
+    background-color: skyblue;
+}
+
+/* Dar estilos con clases nos permite reutilizar nuestro codigo css */
+.text-20{
+    font-size: 20px;
+}
+
+.text-32{
+    font-size: 32px;
+}
+
+.bg-skybllue{
+    background-color: skyblue;
+}
+
+.bg-steelblue{
+    background-color: steelblue;
+}
+
+.text-white{
+    color: white;
+}
